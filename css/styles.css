@@ -121,6 +121,11 @@ img {
 
 .hero {
   background: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+    url("../images/people-office.jpg");
+  max-width: 1440px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -223,6 +228,16 @@ img {
   padding: 120px 0;
 }
 
+.team-item-icon {
+  display: flex;
+  margin: 0 auto;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border-width: 40px;
+  background-color: #4d5ae5;
+}
+
 .team-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -263,6 +278,8 @@ img {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-desc {
@@ -296,6 +313,11 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
+.portfolio-item-marketing {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-subtitle {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -311,6 +333,8 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-desc {
@@ -333,6 +357,7 @@ img {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
 }
 
 .footer-logo {
@@ -344,6 +369,40 @@ img {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   display: inline-block;
+  margin-bottom: 16px;
+  padding-top: 100px;
+}
+
+.footer-icons {
+  margin-left: 120px;
+}
+
+.footer-icons-item {
+  width: 40px;
+  height: 40px;
+  fill: #4d5ae5;
+}
+
+.footer-icons-list {
+  display: flex;
+}
+
+.footer-icons-link {
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding-top: 100px;
   margin-bottom: 16px;
 }
 
@@ -358,4 +417,11 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-icon {
+  gap: 16px;
+  fill: #f4f4fd;
+  width: 24px;
+  height: 24px;
 }
