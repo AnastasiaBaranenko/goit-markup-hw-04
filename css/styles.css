@@ -193,6 +193,18 @@ img {
   padding-bottom: 120px;
 }
 
+.characteristic-icons {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .characteristic-subtitle {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -229,13 +241,9 @@ img {
 }
 
 .team-item-icon {
-  display: flex;
-  margin: 0 auto;
+  fill: #f4f4fd;
   width: 16px;
   height: 16px;
-  border-radius: 50%;
-  border-width: 40px;
-  background-color: #4d5ae5;
 }
 
 .team-title {
@@ -248,6 +256,10 @@ img {
   text-align: center;
   color: #2e2f42;
   margin: 0 auto 72px;
+}
+
+.team-part {
+  margin-top: 32px;
 }
 
 .team-subtitle {
@@ -263,10 +275,25 @@ img {
   margin-bottom: 8px;
 }
 
-.team-container-list {
-  padding: 32px 0;
-  border-radius: 0px 0px 4px 4px;
-  text-align: center;
+.team-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.team-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .team-list {
@@ -333,8 +360,6 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-desc {
@@ -380,19 +405,12 @@ img {
 .footer-icons-item {
   width: 40px;
   height: 40px;
-  fill: #4d5ae5;
 }
 
 .footer-icons-list {
   display: flex;
-}
-
-.footer-icons-link {
-  background-color: #4d5ae5;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-sizing: border-box;
+  gap: 16px;
+  margin-left: 120px;
 }
 
 .footer-text {
@@ -404,6 +422,7 @@ img {
   color: #fff;
   padding-top: 100px;
   margin-bottom: 16px;
+  margin-left: 120px;
 }
 
 .footer-logo-studio {
@@ -419,8 +438,17 @@ img {
   max-width: 264px;
 }
 
+.footer-icons-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
 .footer-icon {
-  gap: 16px;
   fill: #f4f4fd;
   width: 24px;
   height: 24px;
