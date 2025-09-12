@@ -312,7 +312,6 @@ img {
 }
 
 .team-part {
-  margin-top: 32px;
   padding: 32px 0;
 }
 
@@ -534,7 +533,6 @@ img {
   color: var(--color, #ffffff);
   padding-top: 100px;
   margin-bottom: 16px;
-  margin-top: 16px;
   margin-left: 120px;
 }
 
